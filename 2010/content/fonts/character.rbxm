@@ -3,6 +3,8 @@
 	<External>nil</External>
 	<Item class="Model" referent="RBX0">
 		<Properties>
+			<token name="Controller">7</token>
+			<bool name="ControllerFlagShown">true</bool>
 			<CoordinateFrame name="ModelInPrimary">
 				<X>0</X>
 				<Y>0</Y>
@@ -17,7 +19,7 @@
 				<R21>0</R21>
 				<R22>1</R22>
 			</CoordinateFrame>
-			<string name="Name">Player</string>
+			<string name="Name">erik.cassel</string>
 			<Ref name="PrimaryPart">RBX1</Ref>
 			<bool name="archivable">true</bool>
 		</Properties>
@@ -35,8 +37,8 @@
 				<int name="BrickColor">24</int>
 				<CoordinateFrame name="CFrame">
 					<X>0</X>
-					<Y>261.899994</Y>
-					<Z>-0.5</Z>
+					<Y>4.5</Y>
+					<Z>25.5</Z>
 					<R00>-1</R00>
 					<R01>0</R01>
 					<R02>0</R02>
@@ -48,6 +50,8 @@
 					<R22>-1</R22>
 				</CoordinateFrame>
 				<bool name="CanCollide">true</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
 				<bool name="DraggingV1">false</bool>
 				<float name="Elasticity">0.5</float>
 				<token name="FormFactor">0</token>
@@ -61,7 +65,6 @@
 				<token name="LeftSurface">0</token>
 				<token name="LeftSurfaceInput">0</token>
 				<bool name="Locked">true</bool>
-				<token name="Material">256</token>
 				<string name="Name">Head</string>
 				<float name="Reflectance">0</float>
 				<float name="RightParamA">-0.5</float>
@@ -93,16 +96,9 @@
 			</Properties>
 			<Item class="SpecialMesh" referent="RBX2">
 				<Properties>
-					<token name="LODX">2</token>
-					<token name="LODY">2</token>
 					<Content name="MeshId"><null></null></Content>
 					<token name="MeshType">0</token>
 					<string name="Name">Mesh</string>
-					<Vector3 name="Offset">
-						<X>0</X>
-						<Y>0</Y>
-						<Z>0</Z>
-					</Vector3>
 					<Vector3 name="Scale">
 						<X>1.25</X>
 						<Y>1.25</Y>
@@ -123,7 +119,7 @@
 					<string name="Name">face</string>
 					<float name="Shiny">20</float>
 					<float name="Specular">0</float>
-					<Content name="Texture"><url>rbxasset://textures/face.png</url></Content>
+					<Content name="Texture"><url>rbxasset://textures\face.png</url></Content>
 					<bool name="archivable">true</bool>
 				</Properties>
 			</Item>
@@ -142,8 +138,8 @@
 				<int name="BrickColor">23</int>
 				<CoordinateFrame name="CFrame">
 					<X>0</X>
-					<Y>260.399994</Y>
-					<Z>-0.5</Z>
+					<Y>3</Y>
+					<Z>25.5</Z>
 					<R00>-1</R00>
 					<R01>0</R01>
 					<R02>-0</R02>
@@ -155,6 +151,8 @@
 					<R22>-1</R22>
 				</CoordinateFrame>
 				<bool name="CanCollide">true</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
 				<bool name="DraggingV1">false</bool>
 				<float name="Elasticity">0.5</float>
 				<token name="FormFactor">0</token>
@@ -168,7 +166,6 @@
 				<token name="LeftSurface">2</token>
 				<token name="LeftSurfaceInput">0</token>
 				<bool name="Locked">true</bool>
-				<token name="Material">256</token>
 				<string name="Name">Torso</string>
 				<float name="Reflectance">0</float>
 				<float name="RightParamA">0</float>
@@ -204,7 +201,10 @@
 					<string name="Name">roblox</string>
 					<float name="Shiny">20</float>
 					<float name="Specular">0</float>
-					<Content name="Texture"><null></null></Content>
+					<Content name="Texture" mimeType="image/png"><binary xmime:contentType="image/png">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAALHRFWHRDcmVhdGlvbiBUaW1l
+AE1vbiAyMSBBcHIgMjAwOCAxNjo0NDo0OCAtMDgwMMFcEAAAAAAHdElNRQfYBBUXLQp5aDOL
+AAAACXBIWXMAAAsSAAALEgHS3X78AAAABGdBTUEAALGPC/xhBQAAABJJREFUeNpjYBgFo2AU
+jAIIAAAEEAABr0WILAAAAABJRU5ErkJggg==</binary></Content>
 					<bool name="archivable">true</bool>
 				</Properties>
 			</Item>
@@ -223,8 +223,8 @@
 				<int name="BrickColor">24</int>
 				<CoordinateFrame name="CFrame">
 					<X>1.5</X>
-					<Y>260.399994</Y>
-					<Z>-0.5</Z>
+					<Y>3</Y>
+					<Z>25.5</Z>
 					<R00>-1</R00>
 					<R01>0</R01>
 					<R02>0</R02>
@@ -236,6 +236,8 @@
 					<R22>-1</R22>
 				</CoordinateFrame>
 				<bool name="CanCollide">false</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
 				<bool name="DraggingV1">false</bool>
 				<float name="Elasticity">0.5</float>
 				<token name="FormFactor">0</token>
@@ -249,7 +251,6 @@
 				<token name="LeftSurface">0</token>
 				<token name="LeftSurfaceInput">0</token>
 				<bool name="Locked">true</bool>
-				<token name="Material">256</token>
 				<string name="Name">Left Arm</string>
 				<float name="Reflectance">0</float>
 				<float name="RightParamA">-0.5</float>
@@ -294,8 +295,8 @@
 				<int name="BrickColor">24</int>
 				<CoordinateFrame name="CFrame">
 					<X>-1.5</X>
-					<Y>260.399994</Y>
-					<Z>-0.5</Z>
+					<Y>3</Y>
+					<Z>25.5</Z>
 					<R00>-1</R00>
 					<R01>0</R01>
 					<R02>0</R02>
@@ -307,6 +308,8 @@
 					<R22>-1</R22>
 				</CoordinateFrame>
 				<bool name="CanCollide">false</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
 				<bool name="DraggingV1">false</bool>
 				<float name="Elasticity">0.5</float>
 				<token name="FormFactor">0</token>
@@ -320,7 +323,6 @@
 				<token name="LeftSurface">0</token>
 				<token name="LeftSurfaceInput">0</token>
 				<bool name="Locked">true</bool>
-				<token name="Material">256</token>
 				<string name="Name">Right Arm</string>
 				<float name="Reflectance">0</float>
 				<float name="RightParamA">-0.5</float>
@@ -365,8 +367,8 @@
 				<int name="BrickColor">119</int>
 				<CoordinateFrame name="CFrame">
 					<X>0.5</X>
-					<Y>258.399994</Y>
-					<Z>-0.5</Z>
+					<Y>1</Y>
+					<Z>25.5</Z>
 					<R00>-1</R00>
 					<R01>0</R01>
 					<R02>0</R02>
@@ -378,6 +380,8 @@
 					<R22>-1</R22>
 				</CoordinateFrame>
 				<bool name="CanCollide">false</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
 				<bool name="DraggingV1">false</bool>
 				<float name="Elasticity">0.5</float>
 				<token name="FormFactor">0</token>
@@ -391,7 +395,6 @@
 				<token name="LeftSurface">0</token>
 				<token name="LeftSurfaceInput">0</token>
 				<bool name="Locked">true</bool>
-				<token name="Material">256</token>
 				<string name="Name">Left Leg</string>
 				<float name="Reflectance">0</float>
 				<float name="RightParamA">-0.5</float>
@@ -436,8 +439,8 @@
 				<int name="BrickColor">119</int>
 				<CoordinateFrame name="CFrame">
 					<X>-0.5</X>
-					<Y>258.399994</Y>
-					<Z>-0.5</Z>
+					<Y>1</Y>
+					<Z>25.5</Z>
 					<R00>-1</R00>
 					<R01>0</R01>
 					<R02>0</R02>
@@ -449,6 +452,8 @@
 					<R22>-1</R22>
 				</CoordinateFrame>
 				<bool name="CanCollide">false</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
 				<bool name="DraggingV1">false</bool>
 				<float name="Elasticity">0.5</float>
 				<token name="FormFactor">0</token>
@@ -462,7 +467,6 @@
 				<token name="LeftSurface">0</token>
 				<token name="LeftSurfaceInput">0</token>
 				<bool name="Locked">true</bool>
-				<token name="Material">256</token>
 				<string name="Name">Right Leg</string>
 				<float name="Reflectance">0</float>
 				<float name="RightParamA">-0.5</float>
@@ -496,9 +500,27 @@
 		<Item class="Humanoid" referent="RBX10">
 			<Properties>
 				<float name="Health">100</float>
+				<bool name="Jump">false</bool>
 				<float name="MaxHealth">100</float>
 				<string name="Name">Humanoid</string>
-				<float name="WalkSpeed">16</float>
+				<bool name="Sit">false</bool>
+				<Vector3 name="TargetPoint">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<Vector3 name="WalkDirection">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="WalkRotationalVelocity">0</float>
+				<Ref name="WalkToPart">null</Ref>
+				<Vector3 name="WalkToPoint">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
 				<bool name="archivable">true</bool>
 			</Properties>
 		</Item>

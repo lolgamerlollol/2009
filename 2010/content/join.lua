@@ -1,8 +1,8 @@
-local server = "26.133.126.12" 
+local server = "RADMIN IP" 
 local serverport = 53640 
 local clientport = 0 
-local playername = "Player" 
-game:SetMessage("Connecting to server...") 
+local playername = "USERNAME" 
+game:SetMessage("connecting to server...") 
 function dieerror(errmsg) 
 game:SetMessage(errmsg) 
 wait(math.huge) 
