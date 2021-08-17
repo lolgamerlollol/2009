@@ -1,4 +1,4 @@
-<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.rbolock.tk/roblox.xsd" version="4">
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
 	<External>null</External>
 	<External>nil</External>
 	<Item class="Model" referent="RBX0">
@@ -35,7 +35,7 @@
 				<int name="BrickColor">24</int>
 				<CoordinateFrame name="CFrame">
 					<X>0</X>
-					<Y>261.8125</Y>
+					<Y>261.899994</Y>
 					<Z>-0.5</Z>
 					<R00>-1</R00>
 					<R01>0</R01>
@@ -47,7 +47,7 @@
 					<R21>0</R21>
 					<R22>-1</R22>
 				</CoordinateFrame>
-				<bool name="CanCollide">false</bool>
+				<bool name="CanCollide">true</bool>
 				<bool name="DraggingV1">false</bool>
 				<float name="Elasticity">0.5</float>
 				<token name="FormFactor">0</token>
@@ -123,7 +123,7 @@
 					<string name="Name">face</string>
 					<float name="Shiny">20</float>
 					<float name="Specular">0</float>
-					<Content name="Texture"><url>rbxasset://textures\face.png</url></Content>
+					<Content name="Texture"><url>rbxasset://textures/face.png</url></Content>
 					<bool name="archivable">true</bool>
 				</Properties>
 			</Item>
@@ -142,19 +142,19 @@
 				<int name="BrickColor">23</int>
 				<CoordinateFrame name="CFrame">
 					<X>0</X>
-					<Y>260.3125</Y>
+					<Y>260.399994</Y>
 					<Z>-0.5</Z>
 					<R00>-1</R00>
 					<R01>0</R01>
-					<R02>0</R02>
-					<R10>0</R10>
+					<R02>-0</R02>
+					<R10>-0</R10>
 					<R11>1</R11>
-					<R12>0</R12>
-					<R20>0</R20>
+					<R12>-0</R12>
+					<R20>-0</R20>
 					<R21>0</R21>
 					<R22>-1</R22>
 				</CoordinateFrame>
-				<bool name="CanCollide">false</bool>
+				<bool name="CanCollide">true</bool>
 				<bool name="DraggingV1">false</bool>
 				<float name="Elasticity">0.5</float>
 				<token name="FormFactor">0</token>
@@ -204,10 +204,7 @@
 					<string name="Name">roblox</string>
 					<float name="Shiny">20</float>
 					<float name="Specular">0</float>
-					<Content name="Texture"><binary>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAALHRFWHRDcmVhdGlvbiBUaW1l
-AE1vbiAyMSBBcHIgMjAwOCAxNjo0NDo0OCAtMDgwMMFcEAAAAAAHdElNRQfYBBUXLQp5aDOL
-AAAACXBIWXMAAAsSAAALEgHS3X78AAAABGdBTUEAALGPC/xhBQAAABJJREFUeNpjYBgFo2AU
-jAIIAAAEEAABr0WILAAAAABJRU5ErkJggg==</binary></Content>
+					<Content name="Texture"><null></null></Content>
 					<bool name="archivable">true</bool>
 				</Properties>
 			</Item>
@@ -226,7 +223,7 @@ jAIIAAAEEAABr0WILAAAAABJRU5ErkJggg==</binary></Content>
 				<int name="BrickColor">24</int>
 				<CoordinateFrame name="CFrame">
 					<X>1.5</X>
-					<Y>260.3125</Y>
+					<Y>260.399994</Y>
 					<Z>-0.5</Z>
 					<R00>-1</R00>
 					<R01>0</R01>
@@ -297,7 +294,7 @@ jAIIAAAEEAABr0WILAAAAABJRU5ErkJggg==</binary></Content>
 				<int name="BrickColor">24</int>
 				<CoordinateFrame name="CFrame">
 					<X>-1.5</X>
-					<Y>260.3125</Y>
+					<Y>260.399994</Y>
 					<Z>-0.5</Z>
 					<R00>-1</R00>
 					<R01>0</R01>
@@ -368,7 +365,7 @@ jAIIAAAEEAABr0WILAAAAABJRU5ErkJggg==</binary></Content>
 				<int name="BrickColor">119</int>
 				<CoordinateFrame name="CFrame">
 					<X>0.5</X>
-					<Y>258.3125</Y>
+					<Y>258.399994</Y>
 					<Z>-0.5</Z>
 					<R00>-1</R00>
 					<R01>0</R01>
@@ -439,7 +436,7 @@ jAIIAAAEEAABr0WILAAAAABJRU5ErkJggg==</binary></Content>
 				<int name="BrickColor">119</int>
 				<CoordinateFrame name="CFrame">
 					<X>-0.5</X>
-					<Y>258.3125</Y>
+					<Y>258.399994</Y>
 					<Z>-0.5</Z>
 					<R00>-1</R00>
 					<R01>0</R01>

@@ -1,7 +1,7 @@
-local server = "WRITE THE RADMIN IP HERE" 
+local server = "26.133.126.12" 
 local serverport = 53640 
 local clientport = 0 
-local playername = "WRITE YOUR NAME HERE" 
+local playername = "Player" 
 game:SetMessage("Connecting to server...") 
 function dieerror(errmsg) 
 game:SetMessage(errmsg) 
@@ -55,4 +55,4 @@ end
 while true do 
 wait(0.001) 
 replicator:SendMarker() 
-end
+end 
