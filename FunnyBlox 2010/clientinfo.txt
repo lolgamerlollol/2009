@@ -1,8 +1,0 @@
-False
-False
-False
-True
-True
-False
-False
-Mid 2010 client from winsupermario1234's client archive. Does not allow custom names,  launch IDs, or non local play but it does allow character outfit IDs.
