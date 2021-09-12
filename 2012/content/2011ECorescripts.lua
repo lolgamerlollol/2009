@@ -1,1 +1,0 @@
-game:GetService("ScriptContext"):AddStarterScript(1)
