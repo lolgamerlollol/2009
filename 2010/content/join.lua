@@ -1,7 +1,7 @@
-local server = "26.133.126.12" 
-local serverport = 53640 
+local server = "relieved-bike.auto.playit.gg" 
+local serverport = 59013 
 local clientport = 0 
-local playername = "FUNNYBLOX" 
+local playername = "test" 
 game:SetMessage("connecting to server...") 
 function dieerror(errmsg) 
 game:SetMessage(errmsg) 
